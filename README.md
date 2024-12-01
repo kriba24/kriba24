@@ -3,6 +3,8 @@
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=kriba24&theme=catppuccin-frappe)](https://git.io/streak-stats)
 
+[![Krish Bhatti's Tech Stack](https://github-readme-tech-stack.vercel.app/api/cards?title=Krish+Bhatti%27s+Tech+Stack&align=center&lineCount=3&theme=catppuccin_frappe&bg=%23303446&badge=%23292c3c&border=%23737994&titleColor=%2381c8be&line1=docker%2Cdocker%2C2496ED%3Blinux%2Clinux%2CFCC624%3Bvirtualbox%2CVirtualBox%2C183A61%3BProxmox%2CProxmox%2CE57000%3B&line2=Openjdk%2CJava%2C000000%3Bjunit5%2CJunit%2C25A162%3Bintellijidea%2CIntelliJ%2C000000%3Bpython%2Cpython%2C3776AB%3Bgit%2Cgit%2CF05032%3B&line3=chocolatey%2CChoco%2C80B5E3%3Bsquarespace%2Csquarespace%2C000000%3BPytest%2Cpytest%2C0A9EDC%3Bgithub%2Cgithub%2C181717%3B)
+
 <!--
 **kriba24/kriba24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

@@ -1,0 +1,37 @@
+autoinstall:
+  version: 1
+  interactive-sections:
+    - network
+    - storage
+  refresh-installer:
+    update: true
+    channel: latest/edge
+  source:
+    search: true
+    id: ubuntu-desktop-minimal
+  apt:
+    preserve_sources_list: false
+    mirror-selection:
+      primary:
+        - us-mirror
+        - uri: "http://mirrors.rit.edu/ubuntu"
+          arches: [i386, amd64]
+  identity:
+    username: krish
+    password: $1$Zfg8DaZm$2Tvoglx4fFNkw7k2Q1bdb. # p@$$w0rd
+    groups:
+      append: [adm, sudo, lpadmin]
+  packages:
+    - ubuntu-desktop
+  shutdown: reboot
+  updates: all
+  ssh:
+    install-server: true
+    allow-pw: false
+    authorized_keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDwcFSZP2ElP/+Waxaltnw3FYFde5TXMxBrz08/xR/Up
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDhxeKHo99BYHIUrbmeQ7Zx1A+tyTrF3RH6fN5xH1YAT
+  codecs:
+    install: true
+  drivers:
+    install: true

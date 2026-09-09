@@ -9,13 +9,6 @@ autoinstall:
   source:
     search: true
     id: ubuntu-desktop-minimal
-  apt:
-    preserve_sources_list: false
-    mirror-selection:
-      primary:
-        - us-mirror
-        - uri: "http://mirrors.rit.edu/ubuntu"
-          arches: [i386, amd64]
   identity:
     username: krish
     password: $1$Zfg8DaZm$2Tvoglx4fFNkw7k2Q1bdb. # p@$$w0rd
